@@ -21,7 +21,7 @@ export async function GET(request: Request) {
     .maybeSingle();
 
   if (error) {
-    console.error("Erreur Supabase :", error.message);
+    console.error("ERREUR SUPABASE DÉTAILLÉE :", error);
 
     return NextResponse.json(
       { error: "Une erreur est survenue. Réessayez plus tard." },
