@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160">
+  <rect width="520" height="160" rx="18" fill="#ffffff"/>
+  <path d="M28 100 C45 35 120 22 157 49 C184 69 154 117 103 123 C74 126 48 115 28 100Z" fill="none" stroke="#0754C7" stroke-width="12"/>
+  <path d="M37 105 L104 53 L88 100 L145 76" fill="none" stroke="#F5B400" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M119 70 L158 70 L158 112 L119 112Z" fill="#E99A16"/>
+  <path d="M119 70 L139 57 L178 57 L158 70Z" fill="#FFC247"/>
+  <path d="M158 70 L178 57 L178 99 L158 112Z" fill="#C87808"/>
+  <path d="M139 57 L139 99" stroke="#ffffff" stroke-width="2"/>
+  <path d="M139 57 C139 35 165 27 165 47 C165 58 139 76 139 76" fill="#F5B400"/>
+  <circle cx="152" cy="47" r="5" fill="#ffffff"/>
+  <text x="195" y="76" font-family="Arial,sans-serif" font-size="47" font-weight="900" fill="#10234D">DREY</text>
+  <text x="195" y="119" font-family="Arial,sans-serif" font-size="43" font-weight="900" fill="#0754C7">TRACKA</text>
+  <text x="197" y="143" font-family="Arial,sans-serif" font-size="14" font-style="italic" font-weight="bold" fill="#10234D">Suivi total, zéro inquiétude !</text>
+</svg>

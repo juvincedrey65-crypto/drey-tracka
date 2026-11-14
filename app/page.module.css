@@ -1,0 +1,157 @@
+
+.page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  color: #10243b;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #071b32;
+  color: white;
+  padding: 25px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #d5a343;
+}
+
+.header p {
+  color: #d5a343;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hero {
+  text-align: center;
+  padding: 85px 20px;
+  background: linear-gradient(135deg, #071b32, #123d60);
+  color: white;
+}
+
+.tag {
+  color: #e4b653;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.hero h2 {
+  font-size: clamp(36px, 6vw, 60px);
+  line-height: 1.15;
+  margin: 25px 0;
+  font-weight: 800;
+}
+
+.description {
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.9;
+  color: #d8e3ee;
+  font-size: 16px;
+}
+
+.tracking {
+  background: white;
+  color: #10243b;
+  max-width: 550px;
+  margin: 50px auto 0;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.tracking h3 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.tracking input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 17px;
+  border: 1px solid #d5deea;
+  border-radius: 9px;
+  font-size: 15px;
+  margin-bottom: 17px;
+  outline-color: #d5a343;
+}
+
+.tracking button {
+  width: 100%;
+  padding: 17px;
+  background: #d5a343;
+  color: #071b32;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tracking button:hover {
+  background: #edc36f;
+  transform: translateY(-2px);
+}
+
+.services {
+  padding: 75px 8%;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: inline-block;
+  vertical-align: top;
+  width: 270px;
+  max-width: 90%;
+  margin: 12px;
+  padding: 30px 25px;
+  background: white;
+  border-radius: 15px;
+  border-bottom: 3px solid #d5a343;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+
+.service h3 {
+  color: #123d60;
+}
+
+.service p {
+  line-height: 1.8;
+  color: #617185;
+}
+
+.footer {
+  background: #071b32;
+  color: white;
+  text-align: center;
+  padding: 28px;
+  font-size: 14px;
+  border-top: 3px solid #d5a343;
+}
+
+@media (max-width: 600px) {
+  .header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 55px 18px;
+  }
+
+  .tracking {
+    padding: 22px;
+  }
+
+  .services {
+    padding: 45px 15px;
+  }
+}
